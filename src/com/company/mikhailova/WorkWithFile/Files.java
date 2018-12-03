@@ -1,4 +1,4 @@
-package com.company.mikhailova;
+package com.company.mikhailova.WorkWithFile;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -11,7 +11,7 @@ public class Files {
         this.pathToDir = pathToDir;
         System.out.println("pathToDir = " + pathToDir);
     }
-    public void setPathToFile(String pathToFile) throws Exception {
+    public void setPathToFile(String pathToFile) {
         this.pathToFile = pathToFile;
         System.out.println("pathToFile = " + pathToFile);
         if (pathToFile.charAt(0) == '.') {
